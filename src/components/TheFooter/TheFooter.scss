@@ -1,0 +1,39 @@
+.the-footer {
+  background-color: var(--black);
+  bottom: 0;
+  left: 0;
+  padding: 24px;
+  position: fixed;
+  width: 100%;
+}
+
+.the-footer__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.the-footer__left {
+  max-height: 27px;
+  max-width: 142px;
+}
+
+.the-footer__right {
+  display: flex;
+}
+
+.the-footer__icon-link {
+  height: 32px;
+  width: 32px;
+
+  &:not(:first-child) {
+    margin-left: 17px;
+  }
+}
+
+.the-footer__icon {
+  height: 100%;
+  width: 100%;
+}

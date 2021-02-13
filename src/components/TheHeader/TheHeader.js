@@ -1,7 +1,7 @@
 import { JIcon, JInput, JLink } from '@ui';
 import TheNavbar from '@components/TheNavbar';
 
-import jussiLogo from '@assets/images/logoJussiVectorGreen.svg';
+import jussiLogo from '@assets/img/logoJussiVectorGreen.svg';
 
 import './TheHeader.scss';
 
