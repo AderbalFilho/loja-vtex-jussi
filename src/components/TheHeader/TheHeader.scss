@@ -1,0 +1,23 @@
+.the-header {
+  display: flex;
+  margin: 20px 24px;
+  justify-content: space-between;
+}
+
+.the-header__left {
+  align-items: center;
+  display: flex;
+}
+
+.the-header__right {
+  align-items: center;
+  display: flex;
+}
+
+.the-header__input {
+  margin-right: 32px;
+}
+
+.the-header__login {
+  margin-right: 32px;
+}

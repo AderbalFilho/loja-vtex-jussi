@@ -60,4 +60,13 @@ describe('JInput', () => {
 
     expect(input.classList).toContain('search-input');
   });
+
+  it('renders container classes', () => {
+    const { container } = render(
+      <JInput classesContainer="search-input" type="text" />
+    );
+    const input = container.querySelector('.j-input');
+
+    expect(input.classList).toContain('search-input');
+  });
 });

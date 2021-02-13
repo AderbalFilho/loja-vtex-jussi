@@ -8,6 +8,7 @@ import './JInput.scss';
 
 function JInput({
   classes,
+  classesContainer,
   icon,
   iconClicked,
   internalValue,
@@ -20,6 +21,7 @@ function JInput({
     icon && 'j-input__input--with-icon',
     classes
   );
+  const classNameContainer = classNames('j-input', classesContainer);
 
   useEffect(() => {
     setValue(internalValue);
@@ -35,7 +37,7 @@ function JInput({
   }
 
   return (
-    <div className="j-input">
+    <div className={classNameContainer}>
       <input
         className={className}
         value={value}
@@ -62,6 +64,7 @@ JInput.defaultProps = {
 
 JInput.propTypes = {
   classes: PropTypes.string,
+  classesContainer: PropTypes.string,
   icon: PropTypes.string,
   iconClicked: PropTypes.func,
   internalValue: PropTypes.string,
