@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JIcon With icon search matches snapshot 1`] = `
+<img
+  alt="buscar"
+  className="j-icon"
+  src=""
+/>
+`;
+
+exports[`JIcon With shopping cart search matches snapshot 1`] = `
+<img
+  alt="carrinho de compras"
+  className="j-icon"
+  src=""
+/>
+`;
