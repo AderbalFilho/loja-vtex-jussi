@@ -1,5 +1,10 @@
 @import 'styles/mixin';
 
+.j-input {
+  display: flex;
+  width: 240px;
+}
+
 .j-input__input {
   @extend %text-paragraph;
 
@@ -18,4 +23,13 @@
     outline: none;
     border: 1px solid var(--grey);
   }
+}
+
+.j-input__input--with-icon {
+  padding-right: 56px;
+}
+
+.j-input__icon {
+  margin-left: -56px;
+  padding: 8px 16px;
 }
