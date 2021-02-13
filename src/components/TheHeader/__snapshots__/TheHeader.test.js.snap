@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header matches snapshot 1`] = `
+<header
+  className="the-header"
+>
+  <div
+    className="the-header__left"
+  >
+    <a
+      className="j-link"
+      href="#"
+    >
+      <img
+        alt="Logo Jüssi - The business agency"
+        src=""
+      />
+    </a>
+    <nav
+      className="the-navbar"
+    >
+      <a
+        className="j-link the-navbar__link"
+        href="#"
+      >
+        Nossas soluções
+      </a>
+      <a
+        className="j-link the-navbar__link"
+        href="#"
+      >
+        Conheça a Jüssi
+      </a>
+    </nav>
+  </div>
+  <div
+    className="the-header__right"
+  >
+    <div
+      className="j-input the-header__input"
+    >
+      <input
+        className="j-input__input j-input__input--with-icon"
+        onChange={[Function]}
+        placeholder="Buscar"
+        type="text"
+        value=""
+      />
+      <img
+        alt="buscar"
+        className="j-input__icon"
+        onClick={[Function]}
+        src=""
+      />
+    </div>
+    <a
+      className="j-link the-header__login"
+      href="#"
+    >
+      Login
+    </a>
+    <img
+      alt="carrinho de compras"
+      className="j-icon"
+      src=""
+    />
+  </div>
+</header>
+`;
