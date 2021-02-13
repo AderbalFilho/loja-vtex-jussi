@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header matches snapshot 1`] = `
+<footer
+  className="the-footer"
+>
+  <div
+    className="the-footer__container"
+  >
+    <div
+      className="the-footer__left"
+    >
+      <img
+        alt="WPP Company logo"
+        src=""
+        srcSet=",  2x"
+      />
+    </div>
+    <div
+      className="the-footer__right"
+    >
+      <a
+        className="j-link the-footer__icon-link"
+        href="https://pt-br.facebook.com/agencia.jussi/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img
+          alt="Facebook logo"
+          className="the-footer__icon"
+          src=""
+          srcSet=",  2x"
+        />
+      </a>
+      <a
+        className="j-link the-footer__icon-link"
+        href="https://www.instagram.com/jussi/?hl=pt-br"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img
+          alt="Instagram logo"
+          className="the-footer__icon"
+          src=""
+          srcSet=",  2x"
+        />
+      </a>
+      <a
+        className="j-link the-footer__icon-link"
+        href="https://br.linkedin.com/company/agencia-jussi"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        <img
+          alt="Linkedin logo"
+          className="the-footer__icon"
+          src=""
+          srcSet=",  2x"
+        />
+      </a>
+    </div>
+  </div>
+</footer>
+`;
