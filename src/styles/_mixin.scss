@@ -1,0 +1,32 @@
+// Text
+@mixin base-text {
+  color: var(--text-color);
+  font-family: 'Barlow';
+  font-style: normal;
+}
+
+%text-extra-large {
+  @include base-text;
+
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 4.8125rem;
+  text-transform: uppercase;
+}
+
+%text-paragraph {
+  @include base-text;
+
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+%text-large {
+  @include base-text;
+
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+}
