@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JInput matches snapshot 1`] = `
+<div
+  className="j-input"
+>
+  <input
+    className="j-input__input"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  
+</div>
+`;
+
+exports[`JInput with icon matches snapshot 1`] = `
+<div
+  className="j-input"
+>
+  <input
+    className="j-input__input j-input__input--with-icon"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <img
+    alt="buscar"
+    className="j-input__icon"
+    onClick={[Function]}
+    src=""
+  />
+</div>
+`;
