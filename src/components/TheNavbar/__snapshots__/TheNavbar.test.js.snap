@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheNavbar matches snapshot 1`] = `
+<nav
+  className="the-navbar"
+>
+  <a
+    className="j-link the-navbar__link"
+    href="#"
+  >
+    Nossas soluções
+  </a>
+  <a
+    className="j-link the-navbar__link"
+    href="#"
+  >
+    Conheça a Jüssi
+  </a>
+</nav>
+`;
