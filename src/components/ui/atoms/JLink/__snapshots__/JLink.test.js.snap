@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JLink matches snapshot 1`] = `
+<a
+  className="j-link"
+>
+  Jüssi
+</a>
+`;
