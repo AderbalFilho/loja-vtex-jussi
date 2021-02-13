@@ -1,7 +1,9 @@
+@import 'styles/mixin';
+
 .j-link {
+  @extend %text-paragraph;
+
   color: var(--black);
-  font-size: 1rem;
-  line-height: 1.5rem;
   text-decoration: none;
 
   &:hover {
