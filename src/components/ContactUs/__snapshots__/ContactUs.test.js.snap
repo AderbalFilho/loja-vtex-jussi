@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactUs matches snapshot 1`] = `
+<section
+  className="j-section j-section--pink contact-us"
+>
+  <div
+    className="contact-us__container"
+  >
+    <h2
+      className="j-title j-title--white j-title--large contact-us__title"
+    >
+      Essa loja foi construída usando uma das nossas soluções da plataforma VTEX. tenha a sua.
+    </h2>
+    <p
+      className="j-text j-text--white j-text--normal contact-us__contact"
+    >
+      Entre em contato
+    </p>
+    <a
+      className="j-link contact-us__mail"
+      href="mailto:comercial@jussi.com.br"
+    >
+      comercial@jussi.com.br
+    </a>
+  </div>
+</section>
+`;
