@@ -77,6 +77,13 @@ describe('JButton', () => {
       expect(button.classList).toContain('j-button--pink');
     });
 
+    it('renders green', () => {
+      const { container } = render(<JButton color="green">Jüssi</JButton>);
+      const button = container.querySelector('.j-button');
+
+      expect(button.classList).toContain('j-button--green');
+    });
+
     it('renders black', () => {
       const { container } = render(<JButton color="black">Jüssi</JButton>);
       const button = container.querySelector('.j-button');
