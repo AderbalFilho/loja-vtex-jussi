@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterLead matches snapshot 1`] = `
+<section
+  className="j-section j-section--black register-lead"
+>
+  <div
+    className="register-lead__container"
+  >
+    <div
+      className="register-lead__titles"
+    >
+      <h2
+        className="j-title j-title--green j-title--large"
+      >
+        //
+      </h2>
+      <h2
+        className="j-title j-title--white j-title--large"
+      >
+        receba novidades da nossa área de produtos digitais.
+      </h2>
+    </div>
+    <form
+      className="register-lead__register"
+      onSubmit={[Function]}
+    >
+      <div
+        className="j-input register-lead__input-container"
+      >
+        <input
+          className="j-input__input register-lead__input"
+          onChange={[Function]}
+          placeholder="Digite seu e-mail"
+          type="text"
+          value=""
+        />
+        
+      </div>
+      <button
+        className="j-button j-button--back-transparent j-button--border-black j-button--green j-button--rad-normal register-lead__button"
+        type="submit"
+      >
+        Cadastrar
+      </button>
+    </form>
+  </div>
+</section>
+`;

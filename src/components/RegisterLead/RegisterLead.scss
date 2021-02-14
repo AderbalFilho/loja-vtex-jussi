@@ -1,0 +1,51 @@
+.register-lead {
+  padding: 136px 0;
+}
+
+.register-lead__container {
+  margin: 0 auto;
+  max-width: 535px;
+  width: 100%;
+}
+
+.register-lead__titles {
+  position: relative;
+  text-align: center;
+
+  h2 {
+    margin: 0 0 24px 0;
+
+    &:first-child {
+      margin: 0 0 0 -48px;
+      position: absolute;
+    }
+  }
+}
+
+.register-lead__register {
+  border-bottom: 1px solid var(--green-jussi);
+  width: 502px;
+}
+
+.register-lead__input {
+  background-color: var(--black);
+  border: none;
+  color: var(--white);
+
+  &::placeholder {
+    color: var(--white);
+  }
+}
+
+.register-lead__input-container {
+  display: inline-block;
+  margin-left: -16px;
+  width: 404px;
+}
+
+.register-lead__button {
+  display: inline-block;
+  padding-right: 0;
+  text-align: right;
+  text-transform: uppercase;
+}

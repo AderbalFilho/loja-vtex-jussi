@@ -45,7 +45,7 @@ JButton.propTypes = {
   border: PropTypes.oneOf(['black', 'pink', 'green']),
   children: PropTypes.node,
   classes: PropTypes.string,
-  color: PropTypes.oneOf(['black', 'pink']),
+  color: PropTypes.oneOf(['black', 'pink', 'green']),
   radius: PropTypes.oneOf(['normal', 'circle']),
   tag: PropTypes.oneOf(['button', 'a']),
 };
