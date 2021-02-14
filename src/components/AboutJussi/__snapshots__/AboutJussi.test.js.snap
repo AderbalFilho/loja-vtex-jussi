@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutJussi matches snapshot 1`] = `
+<section
+  className="j-section j-section--white about-jussi"
+>
+  <div
+    className="about-jussi__container"
+  >
+    <div
+      className="about-jussi__text-container"
+    >
+      <h2
+        className="j-title j-title--black j-title--large about-jussi__title"
+      >
+        Olá, somos a Jüssi
+      </h2>
+      <p
+        className="j-text j-text--black j-text--normal about-jussi__description"
+      >
+        A Jüssi é uma agência integrante do grupo global WPP que vem há 10 anos consolidando o pensamento voltado para produtos e resolução de problemas. Nosso área dedicada exclusivamente para Produtos Digitais é organizada em 6 especialidades: Product Managamenet, User Experience Design, SEO, Tecnologia, Agile e User Behavior Analytics.
+      </p>
+      <a
+        className="j-button j-button--back-transparent j-button--border-black j-button--black j-button--rad-normal j-button--link about-jussi__button"
+        href="https://jussi.com.br/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        Conheça a Jüssi
+      </a>
+    </div>
+    <img
+      alt="Escritório da Jüssi, mostrando os funcionários trabalhando em suas mesas"
+      className="about-jussi__img"
+      src=""
+      srcSet=",  2x"
+    />
+  </div>
+</section>
+`;

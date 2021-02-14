@@ -1,0 +1,32 @@
+.about-jussi {
+  padding: 64px 0;
+}
+
+.about-jussi__container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.about-jussi__text-container {
+  width: 241px;
+}
+
+.about-jussi__title {
+  margin: 0;
+}
+
+.about-jussi__description {
+  margin: 24px 0;
+}
+
+.about-jussi__button {
+  display: inline-block;
+}
+
+.about-jussi__img {
+  max-height: 520px;
+  max-width: 676px;
+}
