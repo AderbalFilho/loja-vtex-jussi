@@ -2,7 +2,7 @@
 
 exports[`JTitle change tag matches snapshot with h1 1`] = `
 <h1
-  className="j-title j-title--extra-large"
+  className="j-title j-title--black j-title--extra-large"
 >
   Jüssi
 </h1>
@@ -10,7 +10,7 @@ exports[`JTitle change tag matches snapshot with h1 1`] = `
 
 exports[`JTitle change tag matches snapshot with h2 1`] = `
 <h2
-  className="j-title j-title--large"
+  className="j-title j-title--black j-title--large"
 >
   Jüssi
 </h2>

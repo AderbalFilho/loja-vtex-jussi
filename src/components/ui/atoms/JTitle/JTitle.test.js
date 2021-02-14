@@ -35,6 +35,48 @@ describe('JTitle', () => {
     });
   });
 
+  describe('change color', () => {
+    it('renders black when no color is passed', () => {
+      const { container } = render(<JTitle tag="h1">Jüssi</JTitle>);
+      const title = container.querySelector('.j-title');
+
+      expect(title.classList).toContain('j-title--black');
+    });
+
+    it('renders white', () => {
+      const { container } = render(
+        <JTitle tag="h1" color="white">
+          Jüssi
+        </JTitle>
+      );
+      const title = container.querySelector('.j-title');
+
+      expect(title.classList).toContain('j-title--white');
+    });
+
+    it('renders green', () => {
+      const { container } = render(
+        <JTitle tag="h1" color="green">
+          Jüssi
+        </JTitle>
+      );
+      const title = container.querySelector('.j-title');
+
+      expect(title.classList).toContain('j-title--green');
+    });
+
+    it('renders black', () => {
+      const { container } = render(
+        <JTitle tag="h1" color="black">
+          Jüssi
+        </JTitle>
+      );
+      const title = container.querySelector('.j-title');
+
+      expect(title.classList).toContain('j-title--black');
+    });
+  });
+
   it('renders children', () => {
     const { container } = render(<JTitle tag="h1">Jüssi</JTitle>);
     const title = container.querySelector('.j-title');
