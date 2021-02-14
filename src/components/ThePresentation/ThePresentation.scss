@@ -1,3 +1,39 @@
 .the-presentation {
   padding: 40px;
 }
+
+.the-presentation__content {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.the-presentation__left-content {
+  margin-right: 24px;
+  max-width: 451px;
+  position: relative;
+}
+
+.the-presentation__slashes {
+  color: var(--white);
+  position: absolute;
+  margin: 0 0 0 -87px;
+}
+
+.the-presentation__title {
+  margin: 0 0 16px 0;
+}
+
+.the-presentation__subtitle {
+  margin: 0 0 32px 0;
+  max-width: 329px;
+}
+
+.the-presentation__solutions-button {
+  display: block;
+  max-width: 198px;
+}
+
+.the-presentation__right-content {
+  display: flex;
+}
