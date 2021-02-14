@@ -35,5 +35,26 @@
 }
 
 .the-presentation__right-content {
-  display: flex;
+  height: 480px;
+  position: relative;
+  width: 461px;
+}
+
+.the-presentation__offer1 {
+  bottom: 52.6px;
+  left: 0;
+  position: absolute;
+}
+
+.the-presentation__offer2 {
+  left: 129.5px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.the-presentation__offer3 {
+  bottom: 0;
+  right: 0;
+  position: absolute;
 }
