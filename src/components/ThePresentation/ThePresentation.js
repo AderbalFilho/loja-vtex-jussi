@@ -2,39 +2,11 @@ import React from 'react';
 
 import { JButton, JSection, JText, JTitle } from '@ui';
 import ThePresentationCard from '@components/ThePresentationCard';
-
-import fridgeImg from '@assets/img/fridge.png';
-import foodMixerImg from '@assets/img/food-mixer.png';
-import whiskyImg from '@assets/img/whisky.png';
+import { OFFERS } from '@constants';
 
 import './ThePresentation.scss';
 
 function ThePresentation() {
-  const offers = [
-    {
-      img: fridgeImg,
-      imgAlt: 'Refrigerador',
-      buttonText: 'Mais Detalhes',
-      link: '#',
-    },
-    {
-      img: foodMixerImg,
-      imgAlt: 'Batedeira',
-      buttonText: 'Comprar em 12x',
-      action: () => {
-        /* Add to cart */
-      },
-    },
-    {
-      img: whiskyImg,
-      imgAlt: 'Whisky',
-      buttonText: 'Adicionar a sacola',
-      action: () => {
-        /* Add to cart */
-      },
-    },
-  ];
-
   return (
     <JSection classes="the-presentation" color="green">
       <div className="the-presentation__content">
@@ -63,15 +35,15 @@ function ThePresentation() {
         </div>
         <div className="the-presentation__right-content">
           <ThePresentationCard
-            offer={offers[0]}
+            offer={OFFERS[0]}
             classes="the-presentation__offer1"
           />
           <ThePresentationCard
-            offer={offers[1]}
+            offer={OFFERS[1]}
             classes="the-presentation__offer2"
           />
           <ThePresentationCard
-            offer={offers[2]}
+            offer={OFFERS[2]}
             classes="the-presentation__offer3"
           />
         </div>
