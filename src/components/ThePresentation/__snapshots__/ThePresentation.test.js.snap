@@ -28,7 +28,9 @@ exports[`ThePresentation matches snapshot 1`] = `
         </p>
         <a
           className="j-button j-button--back-transparent j-button--border-black j-button--black j-button--rad-normal j-button--link the-presentation__solutions-button"
-          href="#"
+          href="https://jussi.com.br/services.html"
+          rel="noreferrer noopener"
+          target="_blank"
         >
           Veja nossas soluções
         </a>

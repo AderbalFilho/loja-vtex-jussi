@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainStores matches snapshot 1`] = `
+<section
+  className="j-section j-section--white main-stores"
+>
+  <div
+    className="main-stores__container"
+  >
+    <p
+      className="j-text j-text--black j-text--normal main-stores__text"
+    >
+      Nossas principais lojas VTEX
+    </p>
+    <p
+      className="j-text j-text--black j-text--normal main-stores__text main-stores__arrow"
+    >
+      →
+    </p>
+    <a
+      className="j-link"
+      href="https://www.brastemp.com.br/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <img
+        alt="Logo Brastemp"
+        className="main-stores__logo-img"
+        src=""
+        srcSet=",  2x,  3x"
+      />
+    </a>
+    <a
+      className="j-link"
+      href="https://www.compracerta.com.br/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <img
+        alt="Logo Compra Certa"
+        className="main-stores__logo-img"
+        src=""
+        srcSet=",  2x,  3x"
+      />
+    </a>
+    <a
+      className="j-link"
+      href="https://loja.consul.com.br/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <img
+        alt="Logo Consul"
+        className="main-stores__logo-img"
+        src=""
+        srcSet=",  2x,  3x"
+      />
+    </a>
+    <a
+      className="j-link"
+      href="https://br.thebar.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <img
+        alt="Logo The Bar"
+        className="main-stores__logo-img"
+        src=""
+        srcSet=",  2x,  3x"
+      />
+    </a>
+  </div>
+</section>
+`;

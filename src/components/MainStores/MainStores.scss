@@ -1,0 +1,22 @@
+.main-stores {
+  padding: 21px 0;
+}
+
+.main-stores__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.main-stores__text {
+  margin: 0;
+}
+
+.main-stores__arrow {
+  font-size: 1.5rem;
+  line-height: 0.5rem;
+  margin-top: -6px;
+}
