@@ -1,7 +1,13 @@
+import MainStores from '@components/MainStores';
 import ThePresentation from '@components/ThePresentation';
 
 function TheHome() {
-  return <ThePresentation />;
+  return (
+    <>
+      <ThePresentation />
+      <MainStores />
+    </>
+  );
 }
 
 export default TheHome;
