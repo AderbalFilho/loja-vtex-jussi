@@ -1,0 +1,27 @@
+.the-presentation-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.the-presentation-card__img-container {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  padding: 10px 10px 0;
+  width: 100%;
+}
+
+.the-presentation-card__img {
+  max-height: 190px;
+  max-width: 190px;
+}
+
+.the-presentation-card__button {
+  bottom: 0;
+  margin: 0 auto 16px;
+  position: absolute;
+}
