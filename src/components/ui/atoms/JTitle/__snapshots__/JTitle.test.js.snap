@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JTitle change tag matches snapshot with h1 1`] = `
+<h1
+  className="j-title j-title--extra-large"
+>
+  Jüssi
+</h1>
+`;
+
+exports[`JTitle change tag matches snapshot with h2 1`] = `
+<h2
+  className="j-title j-title--large"
+>
+  Jüssi
+</h2>
+`;
