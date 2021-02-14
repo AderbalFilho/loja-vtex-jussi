@@ -1,0 +1,26 @@
+@import 'styles/mixin';
+
+.j-text {
+  @extend %text-paragraph;
+}
+
+.j-text--small {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.j-text--white {
+  color: var(--white);
+}
+
+.j-text--black {
+  color: var(--black);
+}
+
+.j-text--dark-grey {
+  color: var(--dark-grey);
+}
+
+.j-text--pink {
+  color: var(--pink-jussi);
+}

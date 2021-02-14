@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JText matches snapshot 1`] = `
+<p
+  className="j-text j-text--default j-text--normal"
+>
+  Jüssi
+</p>
+`;
