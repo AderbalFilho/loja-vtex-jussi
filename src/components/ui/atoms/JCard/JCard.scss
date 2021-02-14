@@ -1,0 +1,26 @@
+.j-card {
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+}
+
+.j-card--rad-normal {
+  border-radius: 8px;
+}
+
+.j-card--rad-small {
+  border-radius: 4px;
+}
+
+.j-card--shadow {
+  box-shadow: 0 32px 32px 0 #00000040;
+}
+
+.j-card--size-normal {
+  height: 381px;
+  width: 241px;
+}
+
+.j-card--size-small {
+  height: 271px;
+  width: 209px;
+}
