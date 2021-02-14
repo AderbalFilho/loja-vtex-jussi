@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThePresentation matches snapshot 1`] = `
+<section
+  className="j-section j-section--green the-presentation"
+>
+  <div
+    className="the-presentation__content"
+  >
+    <div
+      className="the-presentation__left-content"
+    >
+      <h1
+        className="j-title j-title--extra-large the-presentation__slashes"
+      >
+        //
+      </h1>
+      <div>
+        <h1
+          className="j-title j-title--extra-large the-presentation__title"
+        >
+          Criamos lojas que vendem mais.
+        </h1>
+        <p
+          className="j-text j-text--black j-text--normal the-presentation__subtitle"
+        >
+          A Jüssi é especialista na criação de lojas usando a plataforma VTEX. Precisa criar sua loja ou migrar de plataforma?
+        </p>
+        <a
+          className="j-button j-button--back-transparent j-button--border-black j-button--black j-button--rad-normal j-button--link the-presentation__solutions-button"
+          href="#"
+        >
+          Veja nossas soluções
+        </a>
+      </div>
+    </div>
+    <div
+      className="the-presentation__right-content"
+    >
+      <div
+        className="j-card j-card--rad-normal j-card--shadow j-card--size-small the-presentation-card the-presentation__offer1"
+      >
+        <div
+          className="the-presentation-card__img-container"
+        >
+          <img
+            alt="Refrigerador"
+            className="the-presentation-card__img"
+            src=""
+          />
+        </div>
+        <a
+          className="j-button j-button--back-transparent j-button--border-pink j-button--pink j-button--rad-circle j-button--link the-presentation-card__button"
+          href="#"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          Mais Detalhes
+        </a>
+      </div>
+      <div
+        className="j-card j-card--rad-normal j-card--shadow j-card--size-small the-presentation-card the-presentation__offer2"
+      >
+        <div
+          className="the-presentation-card__img-container"
+        >
+          <img
+            alt="Batedeira"
+            className="the-presentation-card__img"
+            src=""
+          />
+        </div>
+        <button
+          className="j-button j-button--back-transparent j-button--border-pink j-button--pink j-button--rad-circle the-presentation-card__button"
+          onClick={[Function]}
+        >
+          Comprar em 12x
+        </button>
+      </div>
+      <div
+        className="j-card j-card--rad-normal j-card--shadow j-card--size-small the-presentation-card the-presentation__offer3"
+      >
+        <div
+          className="the-presentation-card__img-container"
+        >
+          <img
+            alt="Whisky"
+            className="the-presentation-card__img"
+            src=""
+          />
+        </div>
+        <button
+          className="j-button j-button--back-transparent j-button--border-pink j-button--pink j-button--rad-circle the-presentation-card__button"
+          onClick={[Function]}
+        >
+          Adicionar a sacola
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+`;
