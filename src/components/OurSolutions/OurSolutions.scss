@@ -1,0 +1,26 @@
+.our-solutions {
+  padding: 56px 0;
+}
+
+.our-solutions__container {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.our-solutions__titles {
+  display: flex;
+
+  h2 {
+    margin: 0 0 24px 0;
+
+    &:first-child {
+      margin-right: 4px;
+    }
+  }
+}
+
+.our-solutions__cards {
+  display: flex;
+  justify-content: space-between;
+}

@@ -11,13 +11,13 @@ exports[`ThePresentation matches snapshot 1`] = `
       className="the-presentation__left-content"
     >
       <h1
-        className="j-title j-title--extra-large the-presentation__slashes"
+        className="j-title j-title--white j-title--extra-large the-presentation__slashes"
       >
         //
       </h1>
       <div>
         <h1
-          className="j-title j-title--extra-large the-presentation__title"
+          className="j-title j-title--black j-title--extra-large the-presentation__title"
         >
           Criamos lojas que vendem mais.
         </h1>

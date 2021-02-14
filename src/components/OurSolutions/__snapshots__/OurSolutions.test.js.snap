@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OurSolutions matches snapshot 1`] = `
+<section
+  className="j-section j-section--white our-solutions"
+>
+  <div
+    className="our-solutions__container"
+  >
+    <div
+      className="our-solutions__titles"
+    >
+      <h2
+        className="j-title j-title--green j-title--large"
+      >
+        //
+      </h2>
+      <h2
+        className="j-title j-title--black j-title--large"
+      >
+        Nossas soluções
+      </h2>
+    </div>
+    <div
+      className="our-solutions__cards"
+    >
+      <div
+        className="j-card j-card--rad-normal j-card--size-normal our-solutions-card"
+      >
+        <img
+          alt="P1"
+          className="our-solutions-card__img"
+          src="https://static.openfoodfacts.org/images/products/073/762/806/4502/ingredients_en.10.400.jpg"
+        />
+        <div>
+          <p
+            className="j-text j-text--black j-text--normal our-solutions-card__name"
+          >
+            Nome do Produto #1
+          </p>
+          <p
+            className="j-text j-text--pink j-text--small our-solutions-card__description"
+          >
+            Descrição do produto #1
+          </p>
+          <ul
+            className="our-solutions-card__list"
+          >
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 1
+              </p>
+            </li>
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 2
+              </p>
+            </li>
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 3
+              </p>
+            </li>
+          </ul>
+          <a
+            className="j-button j-button--back-green j-button--border-green j-button--black j-button--rad-normal j-button--link our-solutions-card__button"
+            href=""
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Ver solução
+          </a>
+        </div>
+      </div>
+      <div
+        className="j-card j-card--rad-normal j-card--size-normal our-solutions-card"
+      >
+        <img
+          alt="P2"
+          className="our-solutions-card__img"
+          src="https://static.openfoodfacts.org/images/products/073/762/806/4502/ingredients_en.10.400.jpg"
+        />
+        <div>
+          <p
+            className="j-text j-text--black j-text--normal our-solutions-card__name"
+          >
+            Nome do Produto #2
+          </p>
+          <p
+            className="j-text j-text--pink j-text--small our-solutions-card__description"
+          >
+            Descrição do produto #2
+          </p>
+          <ul
+            className="our-solutions-card__list"
+          >
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 1
+              </p>
+            </li>
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 2
+              </p>
+            </li>
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 3
+              </p>
+            </li>
+          </ul>
+          <a
+            className="j-button j-button--back-green j-button--border-green j-button--black j-button--rad-normal j-button--link our-solutions-card__button"
+            href=""
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Ver solução
+          </a>
+        </div>
+      </div>
+      <div
+        className="j-card j-card--rad-normal j-card--size-normal our-solutions-card"
+      >
+        <img
+          alt="P3"
+          className="our-solutions-card__img"
+          src="https://static.openfoodfacts.org/images/products/073/762/806/4502/ingredients_en.10.400.jpg"
+        />
+        <div>
+          <p
+            className="j-text j-text--black j-text--normal our-solutions-card__name"
+          >
+            Nome do Produto #3
+          </p>
+          <p
+            className="j-text j-text--pink j-text--small our-solutions-card__description"
+          >
+            Descrição do produto #3
+          </p>
+          <ul
+            className="our-solutions-card__list"
+          >
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 1
+              </p>
+            </li>
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 2
+              </p>
+            </li>
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 3
+              </p>
+            </li>
+          </ul>
+          <a
+            className="j-button j-button--back-green j-button--border-green j-button--black j-button--rad-normal j-button--link our-solutions-card__button"
+            href=""
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Ver solução
+          </a>
+        </div>
+      </div>
+      <div
+        className="j-card j-card--rad-normal j-card--size-normal our-solutions-card"
+      >
+        <img
+          alt="P4"
+          className="our-solutions-card__img"
+          src="https://static.openfoodfacts.org/images/products/073/762/806/4502/ingredients_en.10.400.jpg"
+        />
+        <div>
+          <p
+            className="j-text j-text--black j-text--normal our-solutions-card__name"
+          >
+            Nome do Produto #4
+          </p>
+          <p
+            className="j-text j-text--pink j-text--small our-solutions-card__description"
+          >
+            Descrição do produto #4
+          </p>
+          <ul
+            className="our-solutions-card__list"
+          >
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 1
+              </p>
+            </li>
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 2
+              </p>
+            </li>
+            <li>
+              <p
+                className="j-text j-text--dark-grey j-text--small"
+              >
+                Feature 3
+              </p>
+            </li>
+          </ul>
+          <a
+            className="j-button j-button--back-green j-button--border-green j-button--black j-button--rad-normal j-button--link our-solutions-card__button"
+            href=""
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Ver solução
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

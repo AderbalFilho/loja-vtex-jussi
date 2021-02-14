@@ -11,3 +11,15 @@
 .j-title--large {
   @extend %text-large;
 }
+
+.j-title--black {
+  color: var(--black);
+}
+
+.j-title--white {
+  color: var(--white);
+}
+
+.j-title--green {
+  color: var(--green-jussi);
+}
