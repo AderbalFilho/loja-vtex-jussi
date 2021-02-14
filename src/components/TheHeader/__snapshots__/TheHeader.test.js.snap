@@ -21,13 +21,17 @@ exports[`The Header matches snapshot 1`] = `
     >
       <a
         className="j-link the-navbar__link"
-        href="#"
+        href="https://jussi.com.br/services.html"
+        rel="noreferrer noopener"
+        target="_blank"
       >
         Nossas soluções
       </a>
       <a
         className="j-link the-navbar__link"
-        href="#"
+        href="https://jussi.com.br/"
+        rel="noreferrer noopener"
+        target="_blank"
       >
         Conheça a Jüssi
       </a>
