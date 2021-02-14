@@ -1,5 +1,7 @@
+import ThePresentation from '@components/ThePresentation';
+
 function TheHome() {
-  return <p>Hello World!</p>;
+  return <ThePresentation />;
 }
 
 export default TheHome;

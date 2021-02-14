@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThePresentationCard matches snapshot with action 1`] = `
+<div
+  className="j-card j-card--rad-normal j-card--shadow j-card--size-small the-presentation-card"
+>
+  <div
+    className="the-presentation-card__img-container"
+  >
+    <img
+      alt="Batedeira"
+      className="the-presentation-card__img"
+      src="link to foodMixerImg"
+    />
+  </div>
+  <button
+    className="j-button j-button--back-transparent j-button--border-pink j-button--pink j-button--rad-circle the-presentation-card__button"
+    onClick={[MockFunction]}
+  >
+    Comprar em 12x
+  </button>
+</div>
+`;
+
+exports[`ThePresentationCard matches snapshot with link 1`] = `
+<div
+  className="j-card j-card--rad-normal j-card--shadow j-card--size-small the-presentation-card"
+>
+  <div
+    className="the-presentation-card__img-container"
+  >
+    <img
+      alt="Refrigerador"
+      className="the-presentation-card__img"
+      src="link to fridgeImg"
+    />
+  </div>
+  <a
+    className="j-button j-button--back-transparent j-button--border-pink j-button--pink j-button--rad-circle j-button--link the-presentation-card__button"
+    href="#"
+    rel="noreferrer noopener"
+    target="_blank"
+  >
+    Mais Detalhes
+  </a>
+</div>
+`;
