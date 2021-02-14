@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OurSolutionsCard matches snapshot 1`] = `
+<div
+  className="j-card j-card--rad-normal j-card--size-normal our-solutions-card"
+>
+  <img
+    alt="P1"
+    className="our-solutions-card__img"
+    src="https://static.openfoodfacts.org/images/products/073/762/806/4502/ingredients_en.10.400.jpg"
+  />
+  <div>
+    <p
+      className="j-text j-text--black j-text--normal our-solutions-card__name"
+    >
+      Nome do Produto #1
+    </p>
+    <p
+      className="j-text j-text--pink j-text--small our-solutions-card__description"
+    >
+      Descrição do produto #1
+    </p>
+    <ul
+      className="our-solutions-card__list"
+    >
+      <li>
+        <p
+          className="j-text j-text--dark-grey j-text--small"
+        >
+          Feature 1
+        </p>
+      </li>
+      <li>
+        <p
+          className="j-text j-text--dark-grey j-text--small"
+        >
+          Feature 2
+        </p>
+      </li>
+      <li>
+        <p
+          className="j-text j-text--dark-grey j-text--small"
+        >
+          Feature 3
+        </p>
+      </li>
+    </ul>
+    <a
+      className="j-button j-button--back-green j-button--border-green j-button--black j-button--rad-normal j-button--link our-solutions-card__button"
+      href=""
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      Ver solução
+    </a>
+  </div>
+</div>
+`;

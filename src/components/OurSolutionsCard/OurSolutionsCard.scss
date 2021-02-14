@@ -1,0 +1,42 @@
+.our-solutions-card {
+  padding: 16px;
+}
+
+.our-solutions-card__img {
+  border-radius: 50%;
+  height: 100px;
+  margin-bottom: 40px;
+  width: 100px;
+}
+
+.our-solutions-card__name {
+  margin: 0;
+}
+
+.our-solutions-card__description {
+  margin: 16px 0;
+}
+
+.our-solutions-card__list {
+  list-style: none;
+  margin: 0 0 16px 0;
+
+  p {
+    display: inline-block;
+    margin: 0 0 1px 0;
+  }
+
+  li::before {
+    display: inline-block;
+    font-weight: bold;
+    color: var(--dark-grey);
+    content: '\2022';
+    margin-left: -40px;
+    width: 0.5rem;
+  }
+}
+
+.our-solutions-card__button {
+  display: block;
+  text-align: center;
+}
