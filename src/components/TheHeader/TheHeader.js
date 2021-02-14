@@ -7,8 +7,8 @@ import './TheHeader.scss';
 
 function TheHeader() {
   const links = [
-    { url: '#', label: 'Nossas soluções' },
-    { url: '#', label: 'Conheça a Jüssi' },
+    { url: 'https://jussi.com.br/services.html', label: 'Nossas soluções' },
+    { url: 'https://jussi.com.br/', label: 'Conheça a Jüssi' },
   ];
 
   return (

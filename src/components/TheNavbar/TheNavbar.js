@@ -10,7 +10,13 @@ function TheNavbar({ links }) {
     <nav className="the-navbar">
       {links &&
         links.map((link) => (
-          <JLink classes="the-navbar__link" key={link.label} href={link.url}>
+          <JLink
+            key={link.label}
+            href={link.url}
+            rel="noreferrer noopener"
+            target="_blank"
+            classes="the-navbar__link"
+          >
             {link.label}
           </JLink>
         ))}
