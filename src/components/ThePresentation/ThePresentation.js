@@ -39,7 +39,7 @@ function ThePresentation() {
     <JSection classes="the-presentation" color="green">
       <div className="the-presentation__content">
         <div className="the-presentation__left-content">
-          <JTitle tag="h1" classes="the-presentation__slashes">
+          <JTitle tag="h1" color="white" classes="the-presentation__slashes">
             &#47;&#47;
           </JTitle>
           <div>
