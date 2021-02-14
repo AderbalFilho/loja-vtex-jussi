@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JButton change tag matches snapshot with a 1`] = `
+<a
+  className="j-button j-button--back-transparent j-button--border-black j-button--black j-button--rad-normal j-button--link"
+  href="https://jussi.com.br/"
+>
+  Jüssi
+</a>
+`;
+
+exports[`JButton change tag matches snapshot with button 1`] = `
+<button
+  className="j-button j-button--back-transparent j-button--border-black j-button--black j-button--rad-normal"
+>
+  Jüssi
+</button>
+`;
+
+exports[`JButton change tag matches snapshot with button when no tag is passed 1`] = `
+<button
+  className="j-button j-button--back-transparent j-button--border-black j-button--black j-button--rad-normal"
+>
+  Jüssi
+</button>
+`;

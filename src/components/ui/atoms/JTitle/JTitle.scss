@@ -1,0 +1,13 @@
+@import 'styles/mixin';
+
+.j-title {
+  color: var(--black);
+}
+
+.j-title--extra-large {
+  @extend %text-extra-large;
+}
+
+.j-title--large {
+  @extend %text-large;
+}
