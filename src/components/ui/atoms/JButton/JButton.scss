@@ -1,0 +1,47 @@
+@import 'styles/mixin';
+
+.j-button {
+  @extend %text-paragraph;
+
+  padding: 12px 24px;
+}
+
+.j-button--back-transparent {
+  background-color: transparent;
+}
+
+.j-button--back-green {
+  background-color: var(--green-jussi);
+}
+
+.j-button--border-black {
+  border: 1px solid var(--black);
+}
+
+.j-button--border-pink {
+  border: 1px solid var(--pink-jussi);
+}
+
+.j-button--border-green {
+  border: 1px solid var(--green-jussi);
+}
+
+.j-button--black {
+  color: var(--black);
+}
+
+.j-button--pink {
+  color: var(--pink-jussi);
+}
+
+.j-button--rad-normal {
+  border-radius: 6px;
+}
+
+.j-button--rad-circle {
+  border-radius: 24px;
+}
+
+.j-button--link {
+  text-decoration: none;
+}
