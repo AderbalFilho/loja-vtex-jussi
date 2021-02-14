@@ -11,8 +11,8 @@ import TheHome from '@pages/TheHome';
 const Routes = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={TheHome} />
-      <Redirect from="*" to="/" />
+      <Route exact path="/loja-vtex-jussi" component={TheHome} />
+      <Redirect from="*" to="/loja-vtex-jussi" />
     </Switch>
   </Router>
 );

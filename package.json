@@ -1,6 +1,7 @@
 {
   "name": "loja-vtex-jussi",
   "version": "0.1.0",
+  "homepage": "https://aderbalfilho.github.io/loja-vtex-jussi",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -17,7 +18,9 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "predeploy": "react-app-rewired build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
     "customize-cra": "^1.0.0",
+    "gh-pages": "^3.1.0",
     "react-app-rewired": "^2.1.8",
     "react-test-renderer": "^17.0.1"
   }
