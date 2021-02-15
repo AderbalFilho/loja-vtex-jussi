@@ -23,8 +23,14 @@
 }
 
 .register-lead__register {
-  border-bottom: 1px solid var(--green-jussi);
-  width: 502px;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    border-bottom: 1px solid var(--green-jussi);
+    display: block;
+    width: 502px;
+  }
 }
 
 .register-lead__input {
@@ -35,17 +41,31 @@
   &::placeholder {
     color: var(--white);
   }
+
+  &:focus {
+    border: none;
+  }
 }
 
 .register-lead__input-container {
+  border-bottom: 1px solid var(--green-jussi);
   display: inline-block;
-  margin-left: -16px;
-  width: 404px;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    border-bottom: none;
+    margin-left: -16px;
+    width: 404px;
+  }
 }
 
 .register-lead__button {
   display: inline-block;
-  padding-right: 0;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    padding-right: 0;
+    text-align: right;
+  }
 }
