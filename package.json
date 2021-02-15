@@ -6,6 +6,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
@@ -34,6 +35,7 @@
       "\\.(css|scss)$": "<rootDir>/__mocks__/fileMock.js",
       "@components(.*)$": "<rootDir>/src/components/$1",
       "@constants(.*)$": "<rootDir>/src/constants/$1",
+      "@services(.*)$": "<rootDir>/src/services/$1",
       "@ui(.*)$": "<rootDir>/src/components/ui/$1"
     }
   },

@@ -29,7 +29,7 @@ function JInput({
 
   function handleChange({ target }) {
     setValue(target.value);
-    valueChange();
+    valueChange(target.value);
   }
 
   function handleIconClick() {
