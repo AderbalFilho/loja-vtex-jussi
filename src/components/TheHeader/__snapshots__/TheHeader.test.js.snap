@@ -46,6 +46,7 @@ exports[`The Header matches snapshot 1`] = `
       <input
         className="j-input__input j-input__input--with-icon"
         onChange={[Function]}
+        onKeyPress={[Function]}
         placeholder="Buscar"
         type="text"
         value=""

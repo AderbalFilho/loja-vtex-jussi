@@ -8,6 +8,7 @@ module.exports = override(
     '@components': path.resolve(__dirname, './src/components'),
     '@constants': path.resolve(__dirname, './src/constants'),
     '@pages': path.resolve(__dirname, './src/pages'),
+    '@services': path.resolve(__dirname, './src/services'),
     '@ui': path.resolve(__dirname, './src/components/ui'),
   })
 );
