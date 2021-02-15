@@ -39,3 +39,7 @@ I found no good open search API for products, so I've used the [`openfoodfacts`]
 - 737628064502
 - 051500720011
 - 051500700303
+
+### Responsivity
+
+There was no mobile layout to be follow. So I expected that the test involves only the Desktop screen.
