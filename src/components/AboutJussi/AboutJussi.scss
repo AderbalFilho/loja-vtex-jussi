@@ -4,14 +4,28 @@
 
 .about-jussi__container {
   display: flex;
+  flex-direction: column-reverse;
   margin: 0 auto;
   max-width: 1024px;
   justify-content: space-between;
   width: 100%;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
 }
 
 .about-jussi__text-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
   width: 241px;
+
+  @media (min-width: 1024px) {
+    display: block;
+    margin-top: 0;
+  }
 }
 
 .about-jussi__title {
@@ -23,10 +37,19 @@
 }
 
 .about-jussi__button {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .about-jussi__img {
   max-height: 520px;
   max-width: 676px;
+
+  @media (min-width: 768px) {
+    margin: 0 auto;
+  }
+
+  @media (min-width: 1024px) {
+    margin: 0;
+  }
 }
