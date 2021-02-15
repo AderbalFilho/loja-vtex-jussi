@@ -5,18 +5,35 @@
 .main-stores__container {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1024px;
   width: 100%;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
 }
 
 .main-stores__text {
-  margin: 0;
+  margin: 0 0 12px 0;
+
+  @media (min-width: 1024px) {
+    margin: 0;
+  }
 }
 
 .main-stores__arrow {
   font-size: 1.5rem;
   line-height: 0.5rem;
   margin-top: -6px;
+}
+
+.main-stores__logo-img {
+  margin: 12px 0;
+
+  @media (min-width: 1024px) {
+    margin: 0;
+  }
 }
