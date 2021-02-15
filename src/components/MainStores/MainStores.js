@@ -13,7 +13,7 @@ function MainStores() {
           Nossas principais lojas VTEX
         </JText>
         <JText color="black" classes="main-stores__text main-stores__arrow">
-          &rarr;
+          {window.innerWidth < 1024 ? '↓' : '→'}
         </JText>
         {LOGOS.map((logo) => {
           return (
