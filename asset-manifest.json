@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/loja-vtex-jussi/static/css/main.a4d86494.chunk.css",
-    "main.js": "/loja-vtex-jussi/static/js/main.1db25fde.chunk.js",
-    "main.js.map": "/loja-vtex-jussi/static/js/main.1db25fde.chunk.js.map",
-    "runtime-main.js": "/loja-vtex-jussi/static/js/runtime-main.6b82ebcd.js",
-    "runtime-main.js.map": "/loja-vtex-jussi/static/js/runtime-main.6b82ebcd.js.map",
-    "static/js/2.199ff084.chunk.js": "/loja-vtex-jussi/static/js/2.199ff084.chunk.js",
-    "static/js/2.199ff084.chunk.js.map": "/loja-vtex-jussi/static/js/2.199ff084.chunk.js.map",
-    "static/js/3.19bc3bdf.chunk.js": "/loja-vtex-jussi/static/js/3.19bc3bdf.chunk.js",
-    "static/js/3.19bc3bdf.chunk.js.map": "/loja-vtex-jussi/static/js/3.19bc3bdf.chunk.js.map",
+    "main.js": "/loja-vtex-jussi/static/js/main.4110020e.chunk.js",
+    "main.js.map": "/loja-vtex-jussi/static/js/main.4110020e.chunk.js.map",
+    "runtime-main.js": "/loja-vtex-jussi/static/js/runtime-main.e464e1d7.js",
+    "runtime-main.js.map": "/loja-vtex-jussi/static/js/runtime-main.e464e1d7.js.map",
+    "static/js/2.002517cb.chunk.js": "/loja-vtex-jussi/static/js/2.002517cb.chunk.js",
+    "static/js/2.002517cb.chunk.js.map": "/loja-vtex-jussi/static/js/2.002517cb.chunk.js.map",
+    "static/js/3.bab6a600.chunk.js": "/loja-vtex-jussi/static/js/3.bab6a600.chunk.js",
+    "static/js/3.bab6a600.chunk.js.map": "/loja-vtex-jussi/static/js/3.bab6a600.chunk.js.map",
     "index.html": "/loja-vtex-jussi/index.html",
     "static/css/main.a4d86494.chunk.css.map": "/loja-vtex-jussi/static/css/main.a4d86494.chunk.css.map",
-    "static/js/2.199ff084.chunk.js.LICENSE.txt": "/loja-vtex-jussi/static/js/2.199ff084.chunk.js.LICENSE.txt",
+    "static/js/2.002517cb.chunk.js.LICENSE.txt": "/loja-vtex-jussi/static/js/2.002517cb.chunk.js.LICENSE.txt",
     "static/media/food-mixer.3f5a143a.png": "/loja-vtex-jussi/static/media/food-mixer.3f5a143a.png",
     "static/media/fridge.d11d5608.png": "/loja-vtex-jussi/static/media/fridge.d11d5608.png",
     "static/media/image-jussi.423bed4b.png": "/loja-vtex-jussi/static/media/image-jussi.423bed4b.png",
@@ -26,9 +26,9 @@
     "static/media/whisky.f0590614.png": "/loja-vtex-jussi/static/media/whisky.f0590614.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b82ebcd.js",
-    "static/js/2.199ff084.chunk.js",
+    "static/js/runtime-main.e464e1d7.js",
+    "static/js/2.002517cb.chunk.js",
     "static/css/main.a4d86494.chunk.css",
-    "static/js/main.1db25fde.chunk.js"
+    "static/js/main.4110020e.chunk.js"
   ]
 }
