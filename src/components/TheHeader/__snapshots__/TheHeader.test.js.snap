@@ -17,7 +17,7 @@ exports[`The Header matches snapshot 1`] = `
       />
     </a>
     <nav
-      className="the-navbar"
+      className="the-navbar the-header__navbar"
     >
       <a
         className="j-link the-navbar__link"

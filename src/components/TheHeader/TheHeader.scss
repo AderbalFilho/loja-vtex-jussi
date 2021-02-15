@@ -1,7 +1,11 @@
 .the-header {
   display: flex;
   margin: 20px 24px;
-  justify-content: space-between;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    justify-content: space-between;
+  }
 }
 
 .the-header__left {
@@ -9,9 +13,21 @@
   display: flex;
 }
 
+.the-header__navbar {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
+}
+
 .the-header__right {
   align-items: center;
-  display: flex;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .the-header__input {

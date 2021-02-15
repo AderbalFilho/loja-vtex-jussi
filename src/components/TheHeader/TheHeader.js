@@ -35,7 +35,7 @@ function TheHeader() {
         <JLink href="#">
           <img src={jussiLogo} alt="Logo Jüssi - The business agency" />
         </JLink>
-        <TheNavbar links={links} />
+        <TheNavbar classes="the-header__navbar" links={links} />
       </div>
       <div className="the-header__right">
         <JInput
